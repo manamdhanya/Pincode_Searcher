@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>SignUp</title>
+</head>
+
+<body>
+  <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+    <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+      <img class="mx-auto h-24 w-auto"
+        src="https://www.presentations.gov.in/wp-content/uploads/2020/06/India-Post_Preview.png" alt="India Post Logo">
+      <h2 class="mt-10 text-center text-2xl font-bold tracking-tight text-gray-900">Create a new account</h2>
+    </div>
+
+    <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+      <form class="space-y-6" action="/signup" method="POST">
+        <div>
+          <label for="name" class="block text-sm font-medium text-gray-900">Full Name</label>
+          <div class="mt-2">
+            <input type="text" name="name" id="name" required
+               class="block w-full rounded-md border border-gray-300 bg-white px-3 py-1.5 text-base text-gray-900 placeholder:text-gray-400 focus:border-indigo-600 focus:ring-indigo-600 sm:text-sm">
+          </div>
+        </div>
+
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-900">Email address</label>
+          <div class="mt-2">
+            <input type="email" name="email" id="email" autocomplete="email" required
+              class="block w-full rounded-md border border-gray-300 bg-white px-3 py-1.5 text-base text-gray-900 placeholder:text-gray-400 focus:border-indigo-600 focus:ring-indigo-600 sm:text-sm">
+          </div>
+        </div>
+        <div>
+          <label for="password" class="block text-sm font-medium text-gray-900">Password</label>
+          <div class="mt-2">
+            <input type="password" name="password" id="password" autocomplete="new-password" required
+               class="block w-full rounded-md border border-gray-300 bg-white px-3 py-1.5 text-base text-gray-900 placeholder:text-gray-400 focus:border-indigo-600 focus:ring-indigo-600 sm:text-sm">
+          </div>
+        </div>
+        <div>
+          <button type="submit"
+            class="flex w-full justify-center rounded-md bg-[#DA291C] px-3 py-1.5 text-sm font-semibold text-[#FFD200] shadow-sm hover:bg-[#e63030] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            Sign Up
+          </button>
+        </div>
+      </form>
+
+      <p class="mt-6 text-center text-sm text-gray-500">
+        Already have an account?
+        <a href="/" class="font-semibold leading-6 text-[#DA291C] hover:text-[#b81d13]">Login here</a>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
