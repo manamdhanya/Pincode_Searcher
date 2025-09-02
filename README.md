@@ -33,20 +33,13 @@ Pincode\_Searcher is a web application that allows users to search and retrieve 
    npm install
    ```
 
-3. Configure environment variables (`.env` file):
-
-   ```
-   MONGO_URI=your_mongodb_connection_string
-   PORT=3000
-   ```
-
-4. Start the server:
+3. Start the server:
 
    ```sh
    npm start
    ```
 
-5. Open in browser:
+4. Open in browser:
 
    ```
    http://localhost:5001
