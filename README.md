@@ -51,9 +51,3 @@ Pincode\_Searcher is a web application that allows users to search and retrieve 
    ```
    http://localhost:3000
    ```
-
-## Future Enhancements
-
-* Add reverse lookup (search by location name).
-* User authentication with personalized search history.
-* Analytics dashboard for popular pincodes.
