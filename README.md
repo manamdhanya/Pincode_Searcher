@@ -49,5 +49,5 @@ Pincode\_Searcher is a web application that allows users to search and retrieve 
 5. Open in browser:
 
    ```
-   http://localhost:3000
+   http://localhost:5001
    ```
